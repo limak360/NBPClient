@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.root{
+    -fx-font-size: 15px;
+    -fx-font-family: 'Lato', sans-serif;
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+#paneLeft{
+    -fx-background-radius: 0 0 0 15;
+    -fx-background-color: #3D4956;
+}
+#paneRight{
+    -fx-background-radius: 0 0 15 0;
+    -fx-background-color: #3D4956;
+}
+#paneUp{
+       -fx-background-radius: 15 15 0 0 ;
+       -fx-font-size: 25px;
+       -fx-background-color: #3D4956;
+   }
+#close{
+   -fx-background-color: rgba(0, 0, 0, 0);
+   -fx-background-image: url("pics/ico2.png");
+}
+#listView{
+   -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-font-size: 13px;
+}
+.list-cell {
+    -fx-control-inner-background: rgba(0, 0, 0, 0);
+    -fx-selection-bar: rgba(150, 150, 150, 0);
+    -fx-selection-bar-non-focused: rgba(150, 150, 150, 0);
+}
+.label{
+    -fx-text-fill: #FDFDFF;
+}
+//wykres
+.chart {
+    -fx-background-color: #3D4956;
+    -fx-legend-visible: false;
+}
+
+.chart-title {
+    -fx-text-fill: #FDFDFF;
+    -fx-font-size: 15px;
+}
+
+.axis-label {
+    -fx-text-fill: #FDFDFF;
+}
+
+.chart-lines{
+    -fx-stroke: #FDFDFF;
+}
+
+.chart-plot-background {
+ -fx-background-color: #3D4956;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #FDFDFF;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #FDFDFF;
+}
+//dodac tylko inny kolor cen na wykresie i daty
+.axis{
+    -fx-tick-label-fill: black;
+}

@@ -1,0 +1,32 @@
+{
+  "table": "A",
+  "currency": "dolar amerykański",
+  "code": "USD",
+  "rates": [
+    {
+      "no": "057/A/NBP/2018",
+      "effectiveDate": "2018-03-21",
+      "mid": 3.4544
+    },
+    {
+      "no": "058/A/NBP/2018",
+      "effectiveDate": "2018-03-22",
+      "mid": 3.4264
+    },
+    {
+      "no": "059/A/NBP/2018",
+      "effectiveDate": "2018-03-23",
+      "mid": 3.4319
+    },
+    {
+      "no": "060/A/NBP/2018",
+      "effectiveDate": "2018-03-26",
+      "mid": 3.4145
+    },
+    {
+      "no": "061/A/NBP/2018",
+      "effectiveDate": "2018-03-27",
+      "mid": 3.3921
+    }
+  ]
+}
