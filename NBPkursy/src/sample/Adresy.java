@@ -23,13 +23,14 @@ public class Adresy {
         return adresy;
     }
 
-    private String loPanie(String date){
-        if(!(Integer.parseInt(date.substring(8,10))-7>0)) System.out.println("to masz problem i tyle elo");
+    private String stringPrep(String date){
+        if(!(Integer.parseInt(date.substring(8,10))-7>0)){
             return date.substring(0,8)+(Integer.parseInt(date.substring(8,10))-9);
+        }
     }
 
     public String days(String code) {
-        return "http://api.nbp.pl/api/exchangerates/rates/A/"+code+"/" + loPanie(formattedDate) + "/" + formattedDate;
+        return "http://api.nbp.pl/api/exchangerates/rates/A/"+code+"/" + stringPrep(formattedDate) + "/" + formattedDate;
     }
 
 }
